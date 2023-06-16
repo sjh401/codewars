@@ -1,6 +1,5 @@
 const fourSix = (four) => {
     let arr = [];
-    
     while(four > 0){
         arr.unshift(Math.floor(four/4));
         four -= 4;
